@@ -31,7 +31,7 @@ const Appointment1 = () => {
 
 		if (name &&name1 && email && phone && TimeSlote && TestName && date && age) {
 
-			const res = await fetch("https://interview-3871c-default-rtdb.firebaseio.com/deep0.json",
+			const res = await fetch("https://latest-c4831-default-rtdb.firebaseio.com/deep0.json",
 				{
 					method: "POST",
 					headers: {
